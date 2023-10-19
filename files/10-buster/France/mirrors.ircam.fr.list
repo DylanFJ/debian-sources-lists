@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: mirrors.ircam.fr
+# HTTPS supported: no
+
+deb http://mirrors.ircam.fr/pub/debian/ buster main contrib non-free
+deb-src http://mirrors.ircam.fr/pub/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://mirrors.ircam.fr/debian-security buster/updates main
+#deb-src http://mirrors.ircam.fr/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://mirrors.ircam.fr/pub/debian/ buster-updates main contrib non-free
+#deb-src http://mirrors.ircam.fr/pub/debian/ buster-updates main contrib non-free
+
+deb http://mirrors.ircam.fr/pub/debian/ buster-backports main contrib non-free
+#deb-src http://mirrors.ircam.fr/pub/debian/ buster-backports main contrib non-free

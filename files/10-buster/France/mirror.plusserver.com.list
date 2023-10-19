@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: mirror.plusserver.com
+# HTTPS supported: no
+
+deb http://mirror.plusserver.com/debian/debian/ buster main contrib non-free
+deb-src http://mirror.plusserver.com/debian/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://mirror.plusserver.com/debian-security buster/updates main
+#deb-src http://mirror.plusserver.com/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://mirror.plusserver.com/debian/debian/ buster-updates main contrib non-free
+#deb-src http://mirror.plusserver.com/debian/debian/ buster-updates main contrib non-free
+
+deb http://mirror.plusserver.com/debian/debian/ buster-backports main contrib non-free
+#deb-src http://mirror.plusserver.com/debian/debian/ buster-backports main contrib non-free

@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: deb-mir1.naitways.net
+# HTTPS supported: no
+
+deb http://deb-mir1.naitways.net/debian/ buster main contrib non-free
+deb-src http://deb-mir1.naitways.net/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://deb-mir1.naitways.net/debian-security buster/updates main
+#deb-src http://deb-mir1.naitways.net/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://deb-mir1.naitways.net/debian/ buster-updates main contrib non-free
+#deb-src http://deb-mir1.naitways.net/debian/ buster-updates main contrib non-free
+
+deb http://deb-mir1.naitways.net/debian/ buster-backports main contrib non-free
+#deb-src http://deb-mir1.naitways.net/debian/ buster-backports main contrib non-free

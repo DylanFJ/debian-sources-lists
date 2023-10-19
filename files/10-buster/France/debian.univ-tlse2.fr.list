@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: debian.univ-tlse2.fr
+# HTTPS supported: no
+
+deb http://debian.univ-tlse2.fr/debian/ buster main contrib non-free
+deb-src http://debian.univ-tlse2.fr/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://debian.univ-tlse2.fr/debian-security buster/updates main
+#deb-src http://debian.univ-tlse2.fr/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://debian.univ-tlse2.fr/debian/ buster-updates main contrib non-free
+#deb-src http://debian.univ-tlse2.fr/debian/ buster-updates main contrib non-free
+
+deb http://debian.univ-tlse2.fr/debian/ buster-backports main contrib non-free
+#deb-src http://debian.univ-tlse2.fr/debian/ buster-backports main contrib non-free

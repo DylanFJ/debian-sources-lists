@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: apt.tetaneutral.net
+# HTTPS supported: yes
+
+deb https://apt.tetaneutral.net/debian/ buster main contrib non-free
+deb-src https://apt.tetaneutral.net/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://apt.tetaneutral.net/debian-security buster/updates main
+#deb-src http://apt.tetaneutral.net/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb https://apt.tetaneutral.net/debian/ buster-updates main contrib non-free
+#deb-src https://apt.tetaneutral.net/debian/ buster-updates main contrib non-free
+
+deb https://apt.tetaneutral.net/debian/ buster-backports main contrib non-free
+#deb-src https://apt.tetaneutral.net/debian/ buster-backports main contrib non-free

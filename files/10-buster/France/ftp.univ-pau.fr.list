@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: ftp.univ-pau.fr
+# HTTPS supported: no
+
+deb http://ftp.univ-pau.fr/linux/mirrors/debian/ buster main contrib non-free
+deb-src http://ftp.univ-pau.fr/linux/mirrors/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://ftp.univ-pau.fr/debian-security buster/updates main
+#deb-src http://ftp.univ-pau.fr/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://ftp.univ-pau.fr/linux/mirrors/debian/ buster-updates main contrib non-free
+#deb-src http://ftp.univ-pau.fr/linux/mirrors/debian/ buster-updates main contrib non-free
+
+deb http://ftp.univ-pau.fr/linux/mirrors/debian/ buster-backports main contrib non-free
+#deb-src http://ftp.univ-pau.fr/linux/mirrors/debian/ buster-backports main contrib non-free

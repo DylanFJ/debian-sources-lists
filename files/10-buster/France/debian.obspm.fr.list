@@ -1,0 +1,19 @@
+# Mirrors list: https://www.debian.org/mirror/list
+# Mirror: debian.obspm.fr
+# HTTPS supported: no
+
+deb http://debian.obspm.fr/debian/ buster main contrib non-free
+deb-src http://debian.obspm.fr/debian/ buster main contrib non-free
+
+# maybe 404 error for some mirrors
+#deb http://debian.obspm.fr/debian-security buster/updates main
+#deb-src http://debian.obspm.fr/debian-security buster/updates main
+
+deb http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+deb-src http://debian-archive.trafficmanager.net/debian-security buster/updates main contrib non-free
+
+deb http://debian.obspm.fr/debian/ buster-updates main contrib non-free
+#deb-src http://debian.obspm.fr/debian/ buster-updates main contrib non-free
+
+deb http://debian.obspm.fr/debian/ buster-backports main contrib non-free
+#deb-src http://debian.obspm.fr/debian/ buster-backports main contrib non-free
